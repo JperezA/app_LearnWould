@@ -1,0 +1,78 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondomenu"
+    android:orientation="vertical"
+    android:screenOrientation="portrait" >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="51dp"
+               android:layout_x="2dp"
+               android:layout_y="406dp" >
+
+               <Button
+                   android:id="@+id/btnconfiguracion"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:background="@drawable/botonconfig"
+                   android:onClick="sePulsa" />
+
+               <Button
+                   android:id="@+id/btninformacion"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:background="@drawable/botoninfo"
+                   android:onClick="sePulsa" />
+
+           </LinearLayout>
+
+           <Button
+               android:id="@+id/btnfuturo"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_x="2dp"
+               android:layout_y="305dp"
+               android:background="@drawable/botonfutu"
+               android:onClick="sePulsa" />
+
+           <Button
+               android:id="@+id/btnconjugacion"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_x="2dp"
+               android:layout_y="202dp"
+               android:background="@drawable/botoncongu"
+               android:onClick="sePulsa" />
+
+           <Button
+               android:id="@+id/btnuso"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_x="2dp"
+               android:layout_y="100dp"
+               android:background="@drawable/botonused"
+               android:onClick="sePulsa" />
+
+           <Button
+               android:id="@+id/btnwould"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_x="0dp"
+               android:layout_y="14dp"
+               android:background="@drawable/botonwou"
+               android:onClick="sePulsa" />
+
+           <TextView
+               android:id="@+id/textMenu"
+               android:layout_width="159dp"
+               android:layout_height="wrap_content"
+               android:layout_x="154dp"
+               android:layout_y="315dp"
+               android:gravity="right"
+               android:text="LearnWould"
+               android:textAlignment="gravity"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:textColor="@color/inicioletramenu" />
+
+</AbsoluteLayout>

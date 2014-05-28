@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menuconfig">#5477B1</color>
+    <color name="menufuture">#D9E021</color>
+    <color name="menuconjuga">#E3E3E3</color>
+    <color name="menuuses">#DF8F5E</color>
+    <color name="menuwould">#D9B53F</color>
+    <color name="fondoinicio">#77E3E3E3</color>
+    <color name="inicioletramenu">#0482C4</color>
+    <color name="tranparente">#55000000</color>
+    <color name="blanco">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:gravity="bottom|fill_horizontal">
+
+    <RelativeLayout
+       
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <SlidingDrawer
+            android:id="@+id/drawer"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:allowSingleTap="true"
+            android:content="@+id/content"
+            android:handle="@+id/handle" >
+
+            <LinearLayout
+                android:id="@id/handle"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="left" >
+
+                <ImageView
+                    android:id="@+id/tab"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tab_open" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                 android:id="@id/content"
+               android:scrollbars="none"
+               android:layout_width="fill_parent"
+                 android:layout_height="100dip"
+                 android:layout_marginTop="-3dp">
+              <LinearLayout 
+        		android:layout_width="wrap_content"
+        		android:layout_height="100dip"
+       		 android:orientation="horizontal">
+                <Gallery
+                    android:id="@+id/gallerywould"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="3dp" />
+               </LinearLayout>  
+            </HorizontalScrollView>
+        </SlidingDrawer>
+
+        <ImageView
+            android:id="@+id/mascota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:src="@drawable/menuwou1" />
+
+    </RelativeLayout>
+
+</LinearLayout>
